@@ -10,27 +10,30 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.15rem;
+  max-width: 750px;
 }
 
 p {
   font-size: 1rem;
+  line-height: 1.5rem;
+  padding-bottom: 1.3rem;
 }
 
 .container {
   width: 80%;
-  max-width: 750px;
+  max-width: 1000px;
   margin: 0 auto;
-}
-
-.intro-content {
-  width: 50%;
 }
 
 .intro {
   background: #23424a;
   color: white;
-  padding: 50px 0;
+  padding: 5rem 3rem;
+}
+
+.intro-content {
+  width: 51%;
 }
 
 .btn{
@@ -38,11 +41,10 @@ p {
   text-align: center;
   background-color: #38CFD9;
   color: #23424a;
-  border-radius: 31px;
+  border-radius: 30px;
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
-  padding: 15px;
-  border: none;
+  padding: 0.5rem 1.75rem;
   font-weight: bold;
 }
