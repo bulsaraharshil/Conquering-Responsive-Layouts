@@ -10,26 +10,25 @@ body {
 }
 
 h1 {
-  font-size: 2.15rem;
-  max-width: 750px;
+  font-size: 3rem;
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.3rem;
+  line-height: normal;
   padding-bottom: 1.3rem;
 }
 
 .container {
   width: 80%;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
+  padding: 5rem 3rem;
 }
 
 .intro {
   background: #23424a;
   color: white;
-  padding: 5rem 3rem;
 }
 
 .intro-content {
@@ -37,7 +36,7 @@ p {
 }
 
 .btn{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   background-color: #38CFD9;
   color: #23424a;
@@ -47,4 +46,9 @@ p {
   display: inline-block;
   padding: 0.5rem 1.75rem;
   font-weight: bold;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .75; 
 }
