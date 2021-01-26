@@ -26,11 +26,15 @@
      font-family: "Roboto", sans-serif;
      font-size: 1.3rem;
    }
-   
+
    h1 {
      font-size: 3rem;
    }
    
+   p.left{
+     text-align: left;
+   }
+
    h2,
    p {
      text-align: center;
@@ -68,22 +72,20 @@
      /* these are now flex items */
      width: 100%;
    }
-   
-   
 
-   
-   .first-section {
-     padding: 2rem 2rem;
+   .first-section{
+     padding: 2.5rem; 
    }
    
-   .first-heading {
+   .first-section h2 {
      color: #87629a;
+     flex-shrink: 3;
    }
    
    .second-section {
      background-color: #136c72;
      color: #fff;
-     padding: 2rem;
+     padding: 2.5rem;
    }
    
    .btn {
